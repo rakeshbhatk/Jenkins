@@ -17,7 +17,7 @@ pipeline {
 
         stage('Deploy Dev2') {
           steps {
-            bat 'echo "Deploying in Dev2'
+            bat 'echo "Deploying in Dev2 env'
           }
         }
 
