@@ -27,7 +27,6 @@ pipeline {
     stage('Test') {
       steps {
         bat 'Echo "Test"'
-        archiveArtifacts 'Save the Jar'
       }
     }
 
