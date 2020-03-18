@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Step1') {
+    stage('Build Project') {
       steps {
         build 'SampleBuildJob'
       }
