@@ -24,5 +24,18 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        bat 'Echo "Test"'
+        archiveArtifacts 'Save the Jar'
+      }
+    }
+
+    stage('Release') {
+      steps {
+        bat 'Echo "Releasing to Prod"'
+      }
+    }
+
   }
 }
