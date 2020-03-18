@@ -9,7 +9,7 @@ pipeline {
 
     stage('Step2') {
       steps {
-        sh 'echo "hello World"'
+        bat 'echo "Step2"'
       }
     }
 
