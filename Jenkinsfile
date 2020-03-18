@@ -12,6 +12,7 @@ pipeline {
         stage('Deploy Dev1') {
           steps {
             bat 'echo "Deploying in Dev1"'
+            build 'SampleDeployJob'
           }
         }
 
