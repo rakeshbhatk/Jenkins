@@ -10,7 +10,7 @@ for(int i=0;i<10;i++)
 {
 
 
-System.out.prinln("Hello"+i);
+System.out.prinln("Hello 1"+i);
 
 
 
