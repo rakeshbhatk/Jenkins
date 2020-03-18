@@ -9,7 +9,7 @@ pipeline {
 
     stage('Step2') {
       steps {
-        bat 'echo "Step2"'
+        bat 'echo "Deploying in Dev1"'
       }
     }
 
